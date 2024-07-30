@@ -1,0 +1,68 @@
+
+
+body{
+  background-color: white
+}
+
+h2{
+  text-align: center;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+
+}
+
+.input-container > input{
+  height: 25px;
+  width: 350px;
+}
+
+.input-container > button{
+     margin-top: 15px;
+     height: 40px;
+     width: 40px;
+     border-radius: 20px;
+     cursor: pointer;
+}
+
+.container{
+ 
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+ 
+  
+  
+}
+
+.todo{
+  background-color: rgb(228, 228, 228);
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+.actions >button{
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: red;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+.actions >button:hover{
+  transform: scale(0.85);
+  transition: 0.3s ease-in-out;
+}
